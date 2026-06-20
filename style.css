@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c89858 0%, #8b6914 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #8b6914;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.pharaoh-info {
+    background: #8b6914;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.pharaoh-info h3 {
+    font-size: 1.2em;
+}
+
+.slideshow-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.slideshow-section h2 {
+    color: #8b6914;
+    margin-bottom: 20px;
+}
+
+.auto-slideshow {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    border: 3px solid #c89858;
+}
+
+.auto-slideshow img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background: #000;
+    border-radius: 5px;
+}
+
+.image-map-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.image-map-section h2 {
+    color: #8b6914;
+    margin-bottom: 20px;
+}
+
+.image-map-section img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #c89858;
+    border-radius: 10px;
+}
+
+.info-box {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-box h2 {
+    color: #8b6914;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.1em;
+}
